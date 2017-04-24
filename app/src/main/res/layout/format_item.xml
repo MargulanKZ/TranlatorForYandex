@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:longClickable="true"
+    android:background="@android:color/white">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_weight="0"
+        android:focusable="false"
+        android:id="@+id/tvFav"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"
+        android:layout_weight="0"
+        android:focusable="false"
+        android:id="@+id/tvID"/>
+    <ImageButton
+        android:id="@+id/btnAddtoFav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/addtofavbuttonstyle"
+        android:scaleType="centerInside"
+        android:layout_weight="5"
+        android:focusable="false"
+        android:background="@android:color/background_light" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:focusable="false"
+        android:orientation="vertical"
+        android:layout_weight="2">
+    <TextView
+        android:id="@+id/firstLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text=""
+        android:lines="1"
+        android:focusable="false"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/secondLang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:text=""
+        android:layout_marginTop="10dp"
+        android:focusable="false"
+        android:lines="1"
+        android:layout_marginLeft="5dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tvLangToLang"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16dp"
+        android:layout_weight="4"
+        android:focusable="false"
+        android:gravity="center_vertical|center_horizontal" />
+
+</LinearLayout>

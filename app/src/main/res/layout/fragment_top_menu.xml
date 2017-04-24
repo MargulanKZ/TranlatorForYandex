@@ -1,0 +1,40 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="kz.sdu.margulan.trdr.TopMenu"
+    android:orientation="horizontal"
+    android:background="@android:color/background_light"
+    android:id="@+id/LinearMenu"
+    android:weightSum="3">
+
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/translatebtn"
+        android:scaleType="centerInside"
+        android:id="@+id/btnTr"
+        android:layout_weight="1"
+        android:background="@android:color/background_light" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/btnstorystyle"
+        android:scaleType="centerInside"
+        android:id="@+id/btnStory"
+        android:layout_weight="1"
+        android:background="@android:color/background_light" />
+
+    <ImageButton
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/btnfavstyle"
+        android:id="@+id/btnFav"
+        android:scaleType="centerInside"
+        android:layout_weight="1"
+        android:background="@android:color/background_light" />
+
+</LinearLayout>
